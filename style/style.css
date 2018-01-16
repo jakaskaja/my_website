@@ -3,18 +3,30 @@ body{
   padding: 100;
   font-size: 12px;
   font-family: 'Rubik', sans-serif;
-  background-color: #FCFFF5;
-  color: #193441;
+  background-color: #A5A19A;
+  color: #131517;
 }
-blockquote{
-  font-style: italic;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
 }
-h1{
-  font-size: 32px;
-
+li {
+  float: left;
+  border-right: 1px solid black;
 }
-.title{
-  font-size: 22px;
-  font-weight: bold;
-  background-color: #CBDBD7;
+li:last-child{
+  border-right: none;
+}
+li a{
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.block{
+  background-color: white;
 }
