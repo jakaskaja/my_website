@@ -3,30 +3,83 @@ body{
   padding: 100;
   font-size: 12px;
   font-family: 'Rubik', sans-serif;
-  background-color: #A5A19A;
-  color: #131517;
+  background-color: #DAD5D2;
+  color: #0D0C09;
 }
 ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
   list-style-type: none;
   margin: 0;
+  margin-bottom: 20px;
   padding: 0;
   overflow: hidden;
-  background-color: white;
+  background-color: #897E7A;
 }
 li {
   float: left;
-  border-right: 1px solid black;
+  border-right: 2px solid #DAD5D2;
 }
 li:last-child{
   border-right: none;
 }
 li a{
   display: block;
-  color: red;
+  color:#DAD5D2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-weight: bold;
 }
 .block{
-  background-color: white;
+  height: 10px;
+  width: 100%;
+  background-color: grey;
+}
+h1{
+  margin-top: 50px;
+  text-align: center;
+}
+.title{
+  background-color: #413C39;
+  padding: 5px;
+  color:#DAD5D2;
+}
+.book{
+  height: 350px;
+  background-color: #B8AEAC;
+}
+img{
+  height: 300px;
+}
+.quote{
+  height: 175px;
+  font-style: italic;
+  font-size: 12.5px;
+  color: #0D0C09;
+}
+.image-left{
+  float: left;
+  width: 20%;
+}
+.description-left{
+  height: 175px;
+  float: left;
+  width: 80%;
+}
+.image-right{
+  float: right;
+  width: 20%;
+}
+.description-right{
+  height: 175px;
+  float: right;
+  width: 80%;
+}
+footer{
+  background-color: #737172;
+  height: 15px;
+  text-align: left;
+  font-size: 10px;
 }
